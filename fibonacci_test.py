@@ -23,3 +23,9 @@ n = 10  # Change this value to generate more or fewer Fibonacci numbers
 print(fibonacci(n))
 
 # TEST CASES
+
+# write a test case for the fibonacci function
+def test_fibonacci():
+    assert fibonacci(10) == [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+
+test_fibonacci()
